@@ -8,4 +8,7 @@ public interface Pokemon {
     int getDefesa();
     List<Ataque> getAtaques();
     void atacar(Pokemon alvo, Ataque ataque);
+    String getDescricao();
+    String getDesvantagens();
+    String getVantagens();
 }
